@@ -121,11 +121,11 @@
 
 `import numpy as np`
 
-`my\_prob = np.ones(len(FUNC\_OPERATIONS), dtype=int)`
+`my_prob = np.ones(len(FUNC_OPERATIONS), dtype=int)`
 
-`fp = FormulaPopulation(input\_num=1, weights\_num=2, my\_func=FUNC\_OPERATIONS, my\_prob=my\_prob)`
+`fp = FormulaPopulation(input_num=1, weights_num=2, my_func=FUNC_OPERATIONS, my_prob=my_prob)`
 
-`fp.start\_popul(30)`
+`fp.start_popul(30)`
 
 `fp.runfit(inp, targ, iterfit=20, iter=100)`
 
